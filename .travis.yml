@@ -22,7 +22,7 @@ script:
   - docker build -t udagram-frontend ./udagram-frontend # build frontend server ionic
   - docker tag udagram-frontend amrnashaat98/udagram-frontend:latest # tagging
   - docker build -t udagram-reverseproxy ./udagram-reverseproxy # build reverse proxy nginx
-  - docker tag reverseproxy amrnashaat98/udagram-reverseproxy:latest # tagging
+  - docker tag udagram-reverseproxy amrnashaat98/udagram-reverseproxy:latest # tagging
 
 
 after_success:
