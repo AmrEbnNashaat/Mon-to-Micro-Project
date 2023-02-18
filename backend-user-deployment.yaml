@@ -15,10 +15,10 @@ spec:
         service: udagram-api-user
     spec:
       containers:
-      - image: omarzztelcocloud/udagram-api-user:v4
+      - image: amrnashaat98/udagram-api-user:v1
         name: udagram-api-user
         envFrom:
-          - configMapRef:
+          - secretRef:
               name: env-secret
           - configMapRef:
               name: env-configmap
