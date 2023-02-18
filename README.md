@@ -7,7 +7,7 @@ This project is done to demonstrate my ability to use DevOps tools such as Travi
 ## WHAT TO DO?
 You can use the external IP of the frontend to interact with the application, which in turn interacts with a reverseproxy. The reverseproxy interacts with 2 microservices,
 one for the user, and the other is for the feed available to the end user's browser.
-LINK to the frontend pod: http://ad82252aade074cddb79ec90545f31e2-1591424661.us-west-1.elb.amazonaws.com
+LINK to the frontend pod: http://ad944bd622ca344689c7cbf7a856f54d-1679448709.us-west-1.elb.amazonaws.com/
 
 ## DATABASE
 The project's database is hosted on RDS on AWS. And is connected to the backend of the application.
